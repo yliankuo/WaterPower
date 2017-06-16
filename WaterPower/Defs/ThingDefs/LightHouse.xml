@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Buildings>
+  <ThingDef ParentName="BuildingBase">
+    <defName>LightHouse</defName>
+    <label>lighthouse</label>
+    <description>A lighthouse that lights an area.</description>
+    <graphicData>
+        <texPath>Things/Building/LightHouse/lighthouse_frame1</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(4,12)</drawSize>
+        <damageData>
+            <rect>(0.05,0.05,0.95,0.95)</rect>
+        </damageData>
+        <shadowData>
+            <volume>(0.3, 0.6, 0.3)</volume>
+            <offset>(0,0,-0.1)</offset>
+        </shadowData>
+    </graphicData>
+    <designationCategory>Misc</designationCategory>
+    <thingClass>WaterPower.Building_LightHouse</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <selectable>true</selectable>
+    <fillPercent>0.2</fillPercent>
+    <pathCost>150</pathCost>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <comps>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>200</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>20</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+    </comps>
+    <building>
+        <ignoreNeedsPower>false</ignoreNeedsPower>
+    </building>
+    <constructEffect>ConstructMetal</constructEffect>
+    <terrainAffordanceNeeded>Undefined</terrainAffordanceNeeded>
+    <size>(4,12)</size>
+    <statBases>
+      <MaxHitPoints>750</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Flammability>0</Flammability>
+    </statBases>
+    <costList>
+      <Steel>200</Steel>
+      <Component>10</Component>
+    </costList>
+    <placeWorkers>
+        <li>WaterPower.PlaceWorker_LightHouse</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Buildings>

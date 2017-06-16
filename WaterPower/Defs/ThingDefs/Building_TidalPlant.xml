@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Buildings>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>Example_TidalPlant</defName>
+		<thingClass>TidalPlant.Building_TidalPlant</thingClass>
+		<label>Tidal Plant</label>
+		<description>A Tidal Plant. Power Output can be increased from Tidal Turbines, a maximum of 300% output from 10 turbines is possible.</description>
+		<graphicData>
+			<texPath>Things/Building/TidalPlant/tidal_frame1</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<damageData>
+				<rect>(0.05,0.05,0.95,0.95)</rect>
+			</damageData>
+		</graphicData>
+            <rotatable>false</rotatable>
+        <repairEffect>Repair</repairEffect>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<pathCost>150</pathCost>
+		<blockWind>false</blockWind>
+		<fillPercent>0.8</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>5000</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Beauty>-12</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(4,4)</size>
+		<selectable>true</selectable>
+		<designationCategory>Power</designationCategory>
+        
+		<building>
+			<ignoreNeedsPower>true</ignoreNeedsPower>
+		</building>
+		<costList>
+			<Steel>750</Steel>
+            <Plasteel>50</Plasteel>
+			<Component>30</Component>
+		</costList>
+		<constructEffect>ConstructMetal</constructEffect>
+		<killedLeavings>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</killedLeavings>
+        <CastEdgeShadows>False</CastEdgeShadows>
+        <terrainAffordanceNeeded>Undefined</terrainAffordanceNeeded>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>-3000</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+            </li>
+            <li Class="CompProperties_AffectedByFacilities">
+                <linkableFacilities>
+                    <li>TidalTurbine</li>
+                </linkableFacilities>
+            </li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+        <placeWorkers>
+            <li>TidalPlant.PlaceWorker_TidalPlant</li>
+        </placeWorkers>
+        <researchPrerequisites>
+            <li>TidalPower</li>
+        </researchPrerequisites>
+	</ThingDef>
+
+</Buildings>

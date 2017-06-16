@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Buildings>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>Example_WaterTurbine</defName>
+		<thingClass>WaterTurbine.Building_WaterTurbine</thingClass>
+		<label>Water Turbine</label>
+		<description>A Water Turbine</description>
+		<graphicData>
+			<texPath>Things/Building/WaterTurbine/watertur_frame1</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0.05,0.05,0.95,0.95)</rect>
+			</damageData>
+		</graphicData>
+        <repairEffect>Repair</repairEffect>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<pathCost>150</pathCost>
+		<blockWind>false</blockWind>
+		<fillPercent>0.8</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>3000</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Beauty>-12</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(2,2)</size>
+		<selectable>true</selectable>
+		<rotatable>true</rotatable>
+		<designationCategory>Power</designationCategory>
+        
+		<building>
+			<ignoreNeedsPower>true</ignoreNeedsPower>
+            <soundAmbient>WaterTurbine</soundAmbient>
+		</building>
+		<costList>
+			<Steel>150</Steel>
+			<Component>2</Component>
+		</costList>
+		<constructEffect>ConstructMetal</constructEffect>
+		<killedLeavings>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</killedLeavings>
+        <CastEdgeShadows>False</CastEdgeShadows>
+        <terrainAffordanceNeeded>Undefined</terrainAffordanceNeeded>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>-3000</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+        <placeWorkers>
+            <li>WaterTurbine.PlaceWorker_WaterTurbine</li>
+        </placeWorkers>
+        <researchPrerequisites>
+            <li>Electricity</li>
+        </researchPrerequisites>
+
+	</ThingDef>
+
+</Buildings>

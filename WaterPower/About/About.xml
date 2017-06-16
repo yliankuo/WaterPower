@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Water Power</name>
+	<author>Swenzi</author>
+	<targetVersion>0.17.1546</targetVersion>
+	<description>
+        Adds new power generation buildings that use hydropower.
+        
+        Additions:
+        
+        Underwater Power Cable:
+            Designed to built underwater, as such is unbuildable on land. Cost: 2 Steel.
+            
+        Water Turbine:
+            Designed to generate power from river tiles. Increased power output during
+            rain/thunderstorms. Can only be built in deep moving water tiles.
+            
+        Tidal Plant:
+            Designed to generate from the ocean. Power output can be boosted by up to 300%
+            from the use of Tidal Turbines (10 max). Can only be built in shallow ocean
+            water tiles. Requires Tidal Power research.
+            
+        Tidal Turbine:
+            Boosts the power output of the tidal plant by 20%, boost can be stacked up to
+            10 times. Can only be built in ocean tiles. Requires Tidal Power research.
+            
+        Lighthouse:
+            Misc. building that produces light in a large area, only built on ocean tiles.
+            
+        v1.1.0
+        -Rebalanced/Reworked Water Turbine image/requirements/cost/output
+        -Added Tidal Plant and Tidal Turbines
+        -Added Lighthouse
+        v1.0.2
+        -Underwater Power Cables no longer block path
+        v1.0.1
+        -Balancing issues, modified power output from different water tiles.
+        -Added Electricity research requirement.
+        v1.0.0
+        -Initial Release
+        
+        Credits:
+        -Swenzi: Coding Mechanics
+        -Zairya: Textures
+        -Skratchey: Sounds
+        -DrizzlyBear: Bug Testing
+</description>
+</ModMetaData>

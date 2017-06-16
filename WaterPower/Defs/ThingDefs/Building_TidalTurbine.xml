@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Buildings> 
+  <ThingDef ParentName="BuildingBase">
+    <defName>TidalTurbine</defName>
+    <thingClass>WaterPower.Building_TidalTurbine</thingClass>
+    <label>tidal turbine</label>
+    <graphicData>
+      <texPath>Things/Building/TidalTurbine/tidal_frame1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+          <rect>(0.05,0.05,0.95,0.95)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <castEdgeShadows>false</castEdgeShadows>
+    <fillPercent>0.8</fillPercent>
+    <tickerType>Normal</tickerType>
+    <selectable>true</selectable>
+    <rotatable>true</rotatable>
+    <canOverlapZones>false</canOverlapZones>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1500</WorkToBuild>
+      <Mass>40</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <description>Increases power output by 20%. Needs to be placed near tidal plant.</description>
+    <size>(4,4)</size>
+    <constructEffect>ConstructMetal</constructEffect>
+    <costList>
+        <Steel>100</Steel>
+        <Plasteel>7</Plasteel>
+        <Component>4</Component>
+    </costList>
+    <designationCategory>Power</designationCategory>
+    <comps>
+      <li Class="CompProperties_Facility">
+      </li>
+    </comps>
+    <designationHotkey>Misc6</designationHotkey>
+    <placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+        <li>TidalPower</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+</Buildings>

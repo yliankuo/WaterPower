@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ResearchProjectDefs>
+
+	<ResearchProjectDef>
+		<defName>TidalPower</defName>
+		<label>Tidal Power</label>
+		<description>Allows you to construct the Tidal Plant and Tidal Turbine to produce energy from the ocean.</description>
+		<baseCost>5000</baseCost>
+		<prerequisites>
+			<li>MicroelectronicsBasics</li>
+			<li>MultiAnalyzer</li>
+		</prerequisites>
+		<techLevel>Industrial</techLevel>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>9</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+</ResearchProjectDefs>
