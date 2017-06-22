@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <LetterLabelWaterPowerUpdate>Water Power 1.1 Update</LetterLabelWaterPowerUpdate>
+  <WaterPowerUpdate>
+  	The Water Power Mod just got updated to version 1.1. As a result, some new features and balancing has occurred.
+  	Balancing(IMPORTANT):
+  		Water Turbines can only be built in Deep Moving Water and their size is now 2x2 instead of 2x3. This means power nets must be fixed to make up for the lost 1x2.The base power production for the turbines has also been reduced and the bonus from rain is also reduced.
+
+  	New Features:
+  		Tidal Plant:
+		Designed to generate from the ocean. Power output can be boosted by up to 300%
+		from the use of Tidal Turbines (10 max). Can only be built in shallow ocean
+		water tiles. Requires Tidal Power research. Cost: 750 Steel, 50 Plasteel, 30 Components 
+
+		Tidal Turbine:
+		Boosts the power output of the tidal plant by 20%, boost can be stacked up to
+		10 times. Can only be built in ocean tiles. Requires Tidal Power research.
+		Cost: 100 Steel, 7 Plasteel, 4 Components 
+
+		Lighthouse:
+		Misc. building that produces light in a large area, only built on ocean tiles.
+		Cost: 200 Steel, 10 Components 
+		
+	Please post new (suggestions/bugs/balancing tips) in either the Steam Workshop or Ludeon Forum post. Thanks.
+  </WaterPowerUpdate>
+  </LanguageData>

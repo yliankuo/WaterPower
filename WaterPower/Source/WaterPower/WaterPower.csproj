@@ -49,6 +49,7 @@
     <Compile Include="TidalPlant.cs" />
     <Compile Include="TidalTurbine.cs" />
     <Compile Include="LightHouse.cs" />
+    <Compile Include="UpdateNews.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="WaterDamTur.cs" />
