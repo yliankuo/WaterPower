@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Buildings> 
+<Defs>
   <ThingDef ParentName="BuildingBase">
     <defName>TidalTurbine</defName>
     <thingClass>WaterPower.Building_TidalTurbine</thingClass>
@@ -40,7 +40,7 @@
       <li Class="CompProperties_Facility">
       </li>
     </comps>
-    <designationHotkey>Misc6</designationHotkey>
+    <designationHotKey>Misc6</designationHotKey>
     <placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
@@ -49,4 +49,4 @@
     </researchPrerequisites>
   </ThingDef>
 
-</Buildings>
+</Defs>

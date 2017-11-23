@@ -20,7 +20,7 @@ namespace WaterPower
 		private string graphicPathAdditionWoNumber = "_frame";
 		private int updateAnimationEveryXTicks = 5;
 		Map map;
-		private int updateWeatherEveryXTicks = 500;
+		private int updateWeatherEveryXTicks = 1000;
 		private int ticksSinceUpdateWeather;
 		bool disableAnimation = false;
 		public override void SpawnSetup(Map map, bool respawningAfterLoad)

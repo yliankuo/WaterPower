@@ -2,7 +2,7 @@
 <ModMetaData>
 	<name>Water Power</name>
 	<author>Swenzi</author>
-	<targetVersion>0.17.1546</targetVersion>
+	<targetVersion>0.18.1722</targetVersion>
 	<description>
         Adds new power generation buildings that use hydropower.
         
@@ -27,6 +27,8 @@
         Lighthouse:
             Misc. building that produces light in a large area, only built on ocean tiles.
             
+        v1.1.1
+        -Mod Update for B18
         v1.1.0
         -Rebalanced/Reworked Water Turbine image/requirements/cost/output
         -Added Tidal Plant and Tidal Turbines

@@ -25,13 +25,13 @@ namespace WaterPower
 				for (int j = loc.z; j <= loc.z + 11; j++)
 				{
 					tloc = new IntVec3(i, 0, j);
-					if (base.Map.terrainGrid.TerrainAt(tloc) != TerrainDef.Named("WaterOceanShallow")&& base.Map.terrainGrid.TerrainAt(tloc) != TerrainDef.Named("WaterOceanDeep"))
+					if (Find.VisibleMap.terrainGrid.TerrainAt(tloc) != TerrainDef.Named("WaterOceanShallow")&& Find.VisibleMap.terrainGrid.TerrainAt(tloc) != TerrainDef.Named("WaterOceanDeep"))
 						return false;
 				}
 			}
 			return true;
 		}
-		public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Thing thingToIgnore = null)
+		public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null)
 		{
 			return checkBelow(loc, rot);
 		}

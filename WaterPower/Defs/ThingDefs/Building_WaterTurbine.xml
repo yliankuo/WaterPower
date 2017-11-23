@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Buildings>
+<Defs>
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>Example_WaterTurbine</defName>
@@ -34,7 +34,6 @@
 		<designationCategory>Power</designationCategory>
         
 		<building>
-			<ignoreNeedsPower>true</ignoreNeedsPower>
             <soundAmbient>WaterTurbine</soundAmbient>
 		</building>
 		<costList>
@@ -45,7 +44,6 @@
 		<killedLeavings>
 			<ChunkSlagSteel>1</ChunkSlagSteel>
 		</killedLeavings>
-        <CastEdgeShadows>False</CastEdgeShadows>
         <terrainAffordanceNeeded>Undefined</terrainAffordanceNeeded>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -64,4 +62,4 @@
 
 	</ThingDef>
 
-</Buildings>
+</Defs>

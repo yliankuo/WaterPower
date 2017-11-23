@@ -1,31 +1,20 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="WaterPower/UpdateNews.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WaterPower/WaterWheel.cs">
     <Files>
-      <File FileName="WaterPower/WaterTurbine.cs" Line="194" Column="75" />
-      <File FileName="WaterPower/TidalPlant.cs" Line="179" Column="25" />
-      <File FileName="WaterPower/TidalTurbine.cs" Line="14" Column="38" />
-      <File FileName="WaterPower/WaterDamTur.cs" Line="1" Column="1" />
-      <File FileName="WaterPower/LightHouse.cs" Line="150" Column="33" />
-      <File FileName="WaterPower/UpdateNews.cs" Line="10" Column="118" />
+      <File FileName="WaterPower/WaterTurbine.cs" Line="35" Column="17" />
+      <File FileName="WaterPower/TidalPlant.cs" Line="39" Column="25" />
+      <File FileName="WaterPower/WaterWheel.cs" Line="79" Column="14" />
+      <File FileName="WaterPower/LightHouse.cs" Line="28" Column="112" />
+      <File FileName="WaterPower/UpdateNews.cs" Line="8" Column="24" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="WaterPower" expanded="True">
-            <Node name="WaterPower" expanded="True">
-              <Node name="UpdateNews.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ActiveRuntime="Mono 3.12.1 (b7764aa)" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/iankuo/Library/Application Support/Steam/SteamApps/common/RimWorld/RimWorldMac.app/Mods/WaterPower/Source/WaterPower/WaterDamGenerator.cs" line="15" column="1" />
-      <Breakpoint file="/Users/iankuo/Library/Application Support/Steam/SteamApps/common/RimWorld/RimWorldMac.app/Mods/WaterPower/Source/WaterPower/WaterDamTur.cs" line="136" column="1" />
+      <Breakpoint file="/Users/iankuo/Library/Application Support/Steam/SteamApps/common/RimWorld/RimWorldMac.app/Mods/WaterPower/Source/WaterPower/WaterDamGenerator.cs" relfile="WaterPower/WaterDamGenerator.cs" line="15" column="1" />
+      <Breakpoint file="/Users/iankuo/Library/Application Support/Steam/SteamApps/common/RimWorld/RimWorldMac.app/Mods/WaterPower/Source/WaterPower/WaterDamTur.cs" relfile="WaterPower/WaterDamTur.cs" line="136" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>

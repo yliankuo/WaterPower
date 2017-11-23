@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Buildings>
+<Defs>
   <ThingDef ParentName="BuildingBase">
     <defName>LightHouse</defName>
     <label>lighthouse</label>
@@ -41,7 +41,6 @@
       </li>
     </comps>
     <building>
-        <ignoreNeedsPower>false</ignoreNeedsPower>
     </building>
     <constructEffect>ConstructMetal</constructEffect>
     <terrainAffordanceNeeded>Undefined</terrainAffordanceNeeded>
@@ -62,4 +61,4 @@
       <li>Electricity</li>
     </researchPrerequisites>
   </ThingDef>
-</Buildings>
+</Defs>

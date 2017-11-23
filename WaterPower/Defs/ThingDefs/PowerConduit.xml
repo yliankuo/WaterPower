@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Buildings>
+<Defs>
 
 <ThingDef ParentName="BuildingBase">
     <defName>UnderWaterPowerConduit</defName>
@@ -23,7 +23,6 @@
     <uiIconPath>Things/Building/Linked/PowerConduit_MenuIcon</uiIconPath>
     <building>
         <isInert>true</isInert>
-        <ignoreNeedsPower>true</ignoreNeedsPower>
         <isEdifice>false</isEdifice>
     </building>
     <altitudeLayer>FloorEmplacement</altitudeLayer>
@@ -59,4 +58,4 @@
     <researchPrerequisites>
         <li>Electricity</li>
     </researchPrerequisites>
-</ThingDef></Buildings>
+</ThingDef></Defs>

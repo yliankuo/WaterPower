@@ -36,13 +36,13 @@ namespace TidalPlant
 				for (int j = loc.z; j <= loc.z + 3; j++)
 				{
 					tloc = new IntVec3(i, 0, j);
-					if (base.Map.terrainGrid.TerrainAt(tloc) != TerrainDef.Named("WaterOceanShallow"))
+					if (Find.VisibleMap.terrainGrid.TerrainAt(tloc) != TerrainDef.Named("WaterOceanShallow"))
 						return false;
 				}
 			}
 			return true;
 		}
-		public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Thing thingToIgnore = null)
+		public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null)
 		{
 			return checkBelow(loc, rot);
 		}

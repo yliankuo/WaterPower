@@ -29,16 +29,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\..\Contents\Resources\Data\Managed\Assembly-CSharp.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine">
       <HintPath>..\..\..\..\Contents\Resources\Data\Managed\UnityEngine.dll</HintPath>
-      <Private>False</Private>
     </Reference>
-    <Reference Include="0Harmony">
-      <HintPath>..\..\..\..\..\..\..\..\..\..\..\Downloads\0Harmony.dll</HintPath>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\Contents\Resources\Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -49,7 +44,7 @@
     <Compile Include="TidalPlant.cs" />
     <Compile Include="TidalTurbine.cs" />
     <Compile Include="LightHouse.cs" />
-    <Compile Include="UpdateNews.cs" />
+    <Compile Include="WaterWheel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="WaterDamTur.cs" />

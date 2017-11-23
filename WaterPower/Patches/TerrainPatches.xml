@@ -1,31 +1,31 @@
 <Patch>
 
 	<Operation Class="PatchOperationRemove">
-		<xpath>/TerrainDefs/TerrainDef[defName = "WaterDeep"]/changeable</xpath>
+		<xpath>/Defs/TerrainDef[defName = "WaterDeep"]/changeable</xpath>
 	</Operation>
 
 	<Operation Class="PatchOperationRemove">
-		<xpath>/TerrainDefs/TerrainDef[defName = "WaterOceanDeep"]/changeable</xpath>
+		<xpath>/Defs/TerrainDef[defName = "WaterOceanDeep"]/changeable</xpath>
 	</Operation>
 
 	<Operation Class="PatchOperationRemove">
-		<xpath>/TerrainDefs/TerrainDef[defName = "WaterMovingDeep"]/changeable</xpath>
+		<xpath>/Defs/TerrainDef[defName = "WaterMovingDeep"]/changeable</xpath>
 	</Operation>
 
 	<Operation Class="PatchOperationRemove">
-		<xpath>/TerrainDefs/TerrainDef[defName = "WaterShallow"]/changeable</xpath>
+		<xpath>/Defs/TerrainDef[defName = "WaterShallow"]/changeable</xpath>
 	</Operation>
 
 	<Operation Class="PatchOperationRemove">
-		<xpath>/TerrainDefs/TerrainDef[defName = "WaterOceanShallow"]/changeable</xpath>
+		<xpath>/Defs/TerrainDef[defName = "WaterOceanShallow"]/changeable</xpath>
 	</Operation>
 
 	<Operation Class="PatchOperationRemove">
-		<xpath>/TerrainDefs/TerrainDef[defName = "WaterMovingShallow"]/changeable</xpath>
+		<xpath>/Defs/TerrainDef[defName = "WaterMovingShallow"]/changeable</xpath>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>/TerrainDefs/TerrainDef[defName = "WaterDeep"]</xpath>
+		<xpath>/Defs/TerrainDef[defName = "WaterDeep"]</xpath>
 		<value>
 			<changeable>true</changeable>
 			<affordances>
@@ -35,7 +35,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>/TerrainDefs/TerrainDef[defName = "WaterOceanDeep"]</xpath>
+		<xpath>/Defs/TerrainDef[defName = "WaterOceanDeep"]</xpath>
 		<value>
 			<changeable>true</changeable>
 			<affordances>
@@ -45,7 +45,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>/TerrainDefs/TerrainDef[defName = "WaterMovingDeep"]</xpath>
+		<xpath>/Defs/TerrainDef[defName = "WaterMovingDeep"]</xpath>
 		<value>
 			<changeable>true</changeable>
 			<affordances>
@@ -55,7 +55,7 @@
 	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
-		<xpath>/TerrainDefs/TerrainDef[defName = "WaterShallow"]</xpath>
+		<xpath>/Defs/TerrainDef[defName = "WaterShallow"]</xpath>
 		<value>
 			<changeable>true</changeable>
 			<affordances>
@@ -65,7 +65,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>/TerrainDefs/TerrainDef[defName = "WaterOceanShallow"]</xpath>
+		<xpath>/Defs/TerrainDef[defName = "WaterOceanShallow"]</xpath>
 		<value>
 			<changeable>true</changeable>
 			<affordances>
@@ -75,7 +75,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>/TerrainDefs/TerrainDef[defName = "WaterMovingShallow"]</xpath>
+		<xpath>/Defs/TerrainDef[defName = "WaterMovingShallow"]</xpath>
 		<value>
 			<changeable>true</changeable>
 			<affordances>
@@ -85,7 +85,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>/TerrainDefs/TerrainDef[defName = "Marsh"]</xpath>
+		<xpath>/Defs/TerrainDef[defName = "Marsh"]</xpath>
 		<value>
 			<affordances>
 				<li>Undefined</li>
@@ -94,7 +94,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>/TerrainDefs/TerrainDef[defName = "Mud"]</xpath>
+		<xpath>/Defs/TerrainDef[defName = "Mud"]</xpath>
 		<value>
 			<affordances>
 				<li>Undefined</li>

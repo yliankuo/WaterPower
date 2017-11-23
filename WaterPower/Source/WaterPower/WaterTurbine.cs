@@ -38,13 +38,13 @@ namespace WaterTurbine
 				for (int j = loc.z; j <= loc.z + 1; j++)
 				{
 					tloc = new IntVec3(i, 0, j);
-					if (base.Map.terrainGrid.TerrainAt(tloc) != TerrainDef.Named("WaterMovingDeep"))
+					if (Find.VisibleMap.terrainGrid.TerrainAt(tloc) != TerrainDef.Named("WaterMovingDeep"))
 						return false;
 				}
 			}
 			return true;
 		}
-		public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Thing thingToIgnore = null)
+		public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null)
 		{
 			return checkBelow(loc, rot);
 		}
@@ -55,7 +55,7 @@ namespace WaterTurbine
 		private bool destroyedFlag = false;
 		private bool disableAnimation = false;	
 		private bool disablePowerRandomness = false;
-		private int updateWeatherEveryXTicks = 500;
+		private int updateWeatherEveryXTicks = 1000;
 		private int ticksSinceUpdateWeather;
 		protected CompPowerTrader powerComp;
 		public static Graphic[] graphic = null;

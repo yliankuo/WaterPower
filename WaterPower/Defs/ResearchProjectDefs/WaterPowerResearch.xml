@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ResearchProjectDefs>
+<Defs>
 
 	<ResearchProjectDef>
 		<defName>TidalPower</defName>
@@ -18,4 +18,4 @@
 		<researchViewX>9</researchViewX>
 		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
-</ResearchProjectDefs>
+</Defs>
